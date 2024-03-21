@@ -1,0 +1,150 @@
+#web{
+    text-align:center;
+    font-family:'Trebuchet MS';
+    font-size:20px;
+    padding:50px;
+    background-color:black;
+    color:white;
+    animation-name:colorChange;
+    animation-duration:60s;
+    
+   
+
+}
+
+@keyframes slideUp{
+    from{transform:translateY(1000%)}
+}
+@keyframes colorChange{
+    0%{background-color:black}
+    20%{background-color:grey}
+    40%{background-color:darkslategray}
+    60%{background-color:black}
+    80%{background-color:gray}
+    100%{background-color:darkslategray}
+}
+
+
+
+
+
+#body{
+    background-color:white;
+    margin:0px
+   
+    
+}
+
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color:hsl(0,0%,25%);
+    margin:0px;
+    padding:0px;
+    
+    
+    
+ 
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align:center;
+    font-family:'Franklin Gothic Medium'
+}
+
+aside{
+    font-family:'Franklin Gothic Medium';
+    width: 100%;
+    text-align:center;
+    float:inline-end;
+    font-size:30px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: hsl(0,0%,10%);
+    border-radius:5px;
+    margin:8px;
+    padding:3px;
+
+    
+}
+.navbar a:hover{
+    background-color:hsl(0,0%,15%)
+}
+#homelol{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+}
+
+section{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+#socialbutton{
+    background-color:gray;
+    color:white;
+    border-radius:15px;
+    border-color:white;
+    text-decoration: none;
+    padding:5px;
+    
+
+}
+#socialbutton:hover{
+    background-color:hsl(0,0%,40%)
+}
+article{
+    text-align:center;
+    font-family:Georgia;
+}
+.gallery{
+    display:inline-block;
+    border:1px solid;
+    border-color:gray;
+    margin:5px;
+    padding: 3px;
+    width:500px;
+}
+
+.gallery .desc{
+    padding: 5px;
+    text-align:center;
+    font-size:18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.gallery:hover{
+    border:1px solid;
+    border-color:hsl(0,0%,15%)
+}
+.gallery img{
+    width:100%;
+    height:auto;
+
+}
+#insta{
+    text-decoration: none;
+    color:white;
+    padding:3px;
+   
+
+}
+#steam{
+    text-decoration: none;
+    color:white;
+    padding:3px;
+   
+}
+#spotify{
+    text-decoration: none;
+    color:white;
+    padding:3px;
+   
+}
